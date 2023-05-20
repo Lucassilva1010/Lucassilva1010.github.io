@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(237, 232, 224);
+}
+header{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.links{
+    display: inline;
+    margin-left: 600px;
+  
+}
+.links a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    padding: 5px;
+}
+.links a:hover{
+    color: blue;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+.link-b1{
+    background-color: transparent;
+  border:rgb(16, 1, 1) solid 1px ;
+    font-weight:bold ;
+   color:black;
+}
+.link-b2{
+    background-color: transparent;
+    border:rgb(16, 1, 1) solid 1px ;
+    font-weight:bold ;
+   color:black;
+}
+.home{
+    color: brown;
+}
+.span-1, .span-2{
+font-weight: bold;
+font-size: xx-large;
+}
+.span-1{
+    color: brown;
+}
+
+.secao-01{
+   
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+   
+}
+.secao-01 h1{
+    font: bold;
+    font-size: 35px;
+    
+}
+.secao-01 h3{
+    color: blue;
+  
+}
+.secao-02{
+  
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 200px;
+  
+   
+}
