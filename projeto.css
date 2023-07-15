@@ -16,7 +16,6 @@ header{
     font-family: 'Roboto Mono', monospace;
   
 }
-
 /* Link do NAV */
 .links a{
     margin-left: 10px;
@@ -45,6 +44,17 @@ header{
     font-weight:bold ;
    color:black;
 }
+/* Efeito do nome do portifolio */
+.span-1, .span-2{
+font-weight: bold;
+text-decoration: none ;
+font-family: 'Bruno Ace SC', cursive;
+font-size: xx-large;
+}
+/* Efeito do nome do portifolio */
+.span-1{
+    color: #34b4eb;
+}
 
 /* Removendo o sublinhado dos link do NAV */
 a {
@@ -52,10 +62,58 @@ a {
   }
   
 
-
-.titulo{
+/* Configuração dos trextos da apresentação */
+.secao-01{
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+.secao-01 h1{
+    font: bold;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 35px;
+    
+}
+.secao-01 h2{
+    font: bold;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    
+}
+.secao-01 h3{
+    font-weight: bold;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
+    color:#34b4eb ;
+    padding-top: 100px;
+  
+}
+ .texto{
+    
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    padding-top: 50px;
+    line-height: 2.0;
+   
+    margin-left: 1;
+ padding-left: 5%;
+ 
+ ;
+
+}
+.secao-02{
+  
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 200px;
+  
+   
 }
 .data_card{
     display: flex;
@@ -70,4 +128,9 @@ a {
     align-items: flex-end;
     width: 100%;
     height: 100%;
+}
+
+.titulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
 }
