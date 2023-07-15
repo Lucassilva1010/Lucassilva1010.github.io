@@ -1,33 +1,12 @@
+ 
+ @import url(./styles/header.css); 
+ @import url(./styles/footer.css);
  /* Configurações do Fundo da pagina */
 body{
     background-color:rgb(237, 232, 224);
 }
 /* Configurações do NAV MENU pagina */
-header{
-    padding: 20px;
-    font-size: 20px;
-}
-/* Link do NAV */
-.links{
-    display: inline;
-    margin-left: 600px;
-    font-family: 'Roboto Mono', monospace;
-  
-}
-/* Link do NAV */
-.links a{
-    margin-left: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color:black;
-    padding: 5px;
-}
-/* Efeito dos Links do NAV */
-.links a:hover{
-    color: #34b4eb;
-    border-top: 2px solid #34b4eb;
-    border-bottom: 2px solid#34b4eb;
-}
+
 /* Efeito dos Links dos Botões */
 .link-b1{
     background-color: transparent;
@@ -91,14 +70,16 @@ a {
     
     font-family: 'Roboto Mono', monospace;
     text-align: justify;
-    padding-top: 50px;
     line-height: 2.0;
+    font-weight: bold;
    
-    margin-left: 1;
- padding-left: 5%;
+}
+.descricao{
+        
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    line-height: 2.0;
  
- ;
-
 }
 .secao-02{
   

@@ -1,16 +1,23 @@
-body{
+@import url(./styles/header.css); 
+@import url(./styles/footer.css);
+ /* Configurações do Fundo da pagina */
+ body{
     background-color:rgb(237, 232, 224);
 }
+/* Configurações do NAV MENU pagina */
 header{
     padding: 20px;
     font-size: 20px;
 }
-
+/* Link do NAV */
 .links{
     display: inline;
     margin-left: 600px;
+    font-family: 'Roboto Mono', monospace;
   
 }
+
+/* Link do NAV */
 .links a{
     margin-left: 10px;
     text-decoration: none;
@@ -18,61 +25,49 @@ header{
     color:black;
     padding: 5px;
 }
+/* Efeito dos Links do NAV */
 .links a:hover{
-    color: blue;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
+    color: #34b4eb;
+    border-top: 2px solid #34b4eb;
+    border-bottom: 2px solid#34b4eb;
 }
-
+/* Efeito dos Links dos Botões */
 .link-b1{
     background-color: transparent;
   border:rgb(16, 1, 1) solid 1px ;
     font-weight:bold ;
    color:black;
 }
+/* Efeito dos Links dos Botões */
 .link-b2{
     background-color: transparent;
     border:rgb(16, 1, 1) solid 1px ;
     font-weight:bold ;
    color:black;
 }
-.home{
-    color: brown;
-}
-.span-1, .span-2{
-font-weight: bold;
-font-size: xx-large;
-}
-.span-1{
-    color: brown;
-}
 
-.secao-01{
-   
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 400px;
-   
-}
-.secao-01 h1{
-    font: bold;
-    font-size: 35px;
-    
-}
-.secao-01 h3{
-    color: blue;
+/* Removendo o sublinhado dos link do NAV */
+a {
+    text-decoration: none;
+  }
   
-}
-.secao-02{
-  
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 400px;
-}
 
-.img img{
+
+.titulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.data_card{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+   
+}
+.data_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 100%;
-    border-radius: 200px;
-  
-   
+    height: 100%;
 }

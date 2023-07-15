@@ -1,0 +1,21 @@
+.texto_footer{
+    
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+    margin-top: 50px;
+    line-height: 2.0;
+    font-weight: bold;
+  
+} 
+.rodape_contato{
+    margin-top: 30px;
+    
+}
+.rodape_contato_texto{
+    font-size: 20px;
+}
+.redes_sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

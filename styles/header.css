@@ -1,0 +1,26 @@
+header{
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Link do NAV */
+.links{
+    display: inline;
+    margin-left: 600px;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+/* Link do NAV */
+.links a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    padding: 5px;
+}
+/* Efeito dos Links do NAV */
+.links a:hover{
+    color: #34b4eb;
+    border-top: 2px solid #34b4eb;
+    border-bottom: 2px solid#34b4eb;
+}
