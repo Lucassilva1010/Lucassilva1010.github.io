@@ -6,7 +6,7 @@ header{
 /* Link do NAV */
 .links{
     display: inline;
-    margin-left: 600px;
+    margin-left: 500px;
     font-family: 'Roboto Mono', monospace;
   
 }
@@ -24,3 +24,59 @@ header{
     border-top: 2px solid #34b4eb;
     border-bottom: 2px solid#34b4eb;
 }
+
+  /* Efeito dos Links dos Botões */
+  .link-b1 {
+    background-color: transparent;
+    border: rgb(16, 1, 1) solid 1px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Efeito dos Links dos Botões */
+.link-b2 {
+    background-color: transparent;
+    border: rgb(16, 1, 1) solid 1px;
+    font-weight: bold;
+    color: black;
+}
+   /* Efeito dos Links do NAV */
+   .links a:hover {
+    color: #34b4eb;
+    border-top: 2px solid #34b4eb;
+    border-bottom: 2px solid#34b4eb;
+}
+
+/* Efeito dos Links dos Botões */
+.link-b1 {
+    background-color: transparent;
+    border: rgb(16, 1, 1) solid 1px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Efeito dos Links dos Botões */
+.link-b2 {
+    background-color: transparent;
+    border: rgb(16, 1, 1) solid 1px;
+    font-weight: bold;
+    color: black;
+}
+ /* Efeito do nome do portifolio */
+ .span-1,
+ .span-2 {
+     font-weight: bold;
+     text-decoration: none;
+     font-family: 'Bruno Ace SC', cursive;
+     font-size: xx-large;
+ }
+
+ /* Efeito do nome do portifolio */
+ .span-1 {
+     color: #34b4eb;
+ }
+
+ /* Removendo o sublinhado dos link do NAV */
+ a {
+     text-decoration: none;
+ }

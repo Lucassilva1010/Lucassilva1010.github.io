@@ -1,136 +1,88 @@
-@import url(./styles/header.css); 
+@import url(./styles/header.css);
 @import url(./styles/footer.css);
- /* Configurações do Fundo da pagina */
- body{
-    background-color:rgb(237, 232, 224);
-}
-/* Configurações do NAV MENU pagina */
-header{
-    padding: 20px;
-    font-size: 20px;
-}
-/* Link do NAV */
-.links{
-    display: inline;
-    margin-left: 600px;
-    font-family: 'Roboto Mono', monospace;
-  
-}
-/* Link do NAV */
-.links a{
-    margin-left: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    color:black;
-    padding: 5px;
-}
-/* Efeito dos Links do NAV */
-.links a:hover{
-    color: #34b4eb;
-    border-top: 2px solid #34b4eb;
-    border-bottom: 2px solid#34b4eb;
-}
-/* Efeito dos Links dos Botões */
-.link-b1{
-    background-color: transparent;
-  border:rgb(16, 1, 1) solid 1px ;
-    font-weight:bold ;
-   color:black;
-}
-/* Efeito dos Links dos Botões */
-.link-b2{
-    background-color: transparent;
-    border:rgb(16, 1, 1) solid 1px ;
-    font-weight:bold ;
-   color:black;
-}
-/* Efeito do nome do portifolio */
-.span-1, .span-2{
-font-weight: bold;
-text-decoration: none ;
-font-family: 'Bruno Ace SC', cursive;
-font-size: xx-large;
-}
-/* Efeito do nome do portifolio */
-.span-1{
-    color: #34b4eb;
-}
 
-/* Removendo o sublinhado dos link do NAV */
-a {
-    text-decoration: none;
-  }
-  
 
-/* Configuração dos trextos da apresentação */
-.secao-01{
-    font-family: 'Libre Baskerville', serif;
-    margin-left: 50px;
-    margin-top: 10px;
-    
-}
-.secao-01 h1{
-    font: bold;
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: 35px;
-    
-}
-.secao-01 h2{
-    font: bold;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 35px;
-    
-}
-.secao-01 h3{
-    font-weight: bold;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    color:#34b4eb ;
-    padding-top: 100px;
-  
-}
- .texto{
-    
-    font-family: 'Roboto Mono', monospace;
-    text-align: justify;
-    padding-top: 50px;
-    line-height: 2.0;
+@media all and (orientation: landscape) {
+    /* Estilizações CSS */
+
+
+    /* Configurações do Fundo da pagina */
+    body {
+        background-color: rgb(237, 232, 224);
+    }
+
+
    
-    margin-left: 1;
- padding-left: 5%;
- 
- ;
+    .secao-01 h1 {
+        font: bold;
+        font-family: 'Bruno Ace SC', cursive;
+        font-size: 35px;
 
-}
-.secao-02{
-  
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 400px;
-}
+    }
 
-.img img{
-    width: 100%;
-    border-radius: 200px;
-  
-   
-}
-.data_card{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-   
-}
-.data_container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-    height: 100%;
-}
+    .secao-01 h2 {
+        font: bold;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 35px;
 
-.titulo{
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
+    }
+
+    .secao-01 h3 {
+        font-weight: bold;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        color: #34b4eb;
+        padding-top: 100px;
+
+    }
+
+    .texto {
+
+        font-family: 'Roboto Mono', monospace;
+        text-align: justify;
+        padding-top: 50px;
+        line-height: 2.0;
+
+        margin-left: 1;
+        padding-left: 5%;
+
+        ;
+
+    }
+
+    .secao-02 {
+
+        margin-left: 50px;
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .img img {
+        width: 100%;
+        border-radius: 200px;
+
+
+    }
+
+    .data_card {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+
+    }
+
+    .data_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+
 }

@@ -1,96 +1,119 @@
- 
- @import url(./styles/header.css); 
+ @import url(./styles/header.css);
  @import url(./styles/footer.css);
- /* Configurações do Fundo da pagina */
-body{
-    background-color:rgb(237, 232, 224);
-}
-/* Configurações do NAV MENU pagina */
 
-/* Efeito dos Links dos Botões */
-.link-b1{
-    background-color: transparent;
-  border:rgb(16, 1, 1) solid 1px ;
-    font-weight:bold ;
-   color:black;
-}
-/* Efeito dos Links dos Botões */
-.link-b2{
-    background-color: transparent;
-    border:rgb(16, 1, 1) solid 1px ;
-    font-weight:bold ;
-   color:black;
-}
-/* Efeito do nome do portifolio */
-.span-1, .span-2{
-font-weight: bold;
-text-decoration: none ;
-font-family: 'Bruno Ace SC', cursive;
-font-size: xx-large;
-}
-/* Efeito do nome do portifolio */
-.span-1{
-    color: #34b4eb;
-}
+ @media all and (orientation: landscape) {
+     /* Estilizações CSS */
 
-/* Removendo o sublinhado dos link do NAV */
-a {
-    text-decoration: none;
-  }
-  
 
-/* Configuração dos trextos da apresentação */
-.secao-01{
-    font-family: 'Libre Baskerville', serif;
-    margin-left: 50px;
-    margin-top: 10px;
-    
-}
-.secao-01 h1{
-    font: bold;
-    font-family: 'Bruno Ace SC', cursive;
-    font-size: 35px;
-    
-}
-.secao-01 h2{
-    font: bold;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 35px;
-    
-}
-.secao-01 h3{
-    font-weight: bold;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    color:#34b4eb ;
-    padding-top: 100px;
-  
-}
- .texto{
-    
-    font-family: 'Roboto Mono', monospace;
-    text-align: justify;
-    line-height: 2.0;
-    font-weight: bold;
+     /* Estilizações CSS */
+
+    /* Configurações do Fundo da pagina */
+    body {
+        background-color: rgb(237, 232, 224);
+    }
+
+
+     /* Configurações do Fundo da pagina */
    
-}
-.descricao{
-        
-    font-family: 'Roboto Mono', monospace;
-    text-align: justify;
-    line-height: 2.0;
- 
-}
-.secao-02{
-  
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 400px;
-}
 
-.img img{
-    width: 100%;
-    border-radius: 200px;
-  
-   
-}
+     /* Configurações do NAV MENU pagina */
+
+     /* Efeito dos Links dos Botões */
+     .link-b1 {
+         background-color: transparent;
+         border: rgb(16, 1, 1) solid 1px;
+         font-weight: bold;
+         color: black;
+     }
+
+     /* Efeito dos Links dos Botões */
+     .link-b2 {
+         background-color: transparent;
+         border: rgb(16, 1, 1) solid 1px;
+         font-weight: bold;
+         color: black;
+     }
+
+     /* Efeito do nome do portifolio */
+     .span-1,
+     .span-2 {
+         font-weight: bold;
+         text-decoration: none;
+         font-family: 'Bruno Ace SC', cursive;
+         font-size: xx-large;
+     }
+
+     /* Efeito do nome do portifolio */
+     .span-1 {
+         color: #34b4eb;
+     }
+
+     /* Removendo o sublinhado dos link do NAV */
+     a {
+         text-decoration: none;
+     }
+
+
+     /* Configuração dos trextos da apresentação */
+     .secao-01 {
+         font-family: 'Libre Baskerville', serif;
+         margin-left: 50px;
+         margin-top: 10px;
+
+     }
+
+     .secao-01 h1 {
+         font: bold;
+         font-family: 'Bruno Ace SC', cursive;
+         font-size: 35px;
+
+     }
+
+     .secao-01 h2 {
+         font: bold;
+         font-family: 'Roboto Mono', monospace;
+         font-size: 35px;
+
+     }
+
+     .secao-01 h3 {
+         font-weight: bold;
+         font-family: 'Roboto Mono', monospace;
+         font-weight: bold;
+         color: #34b4eb;
+         padding-top: 100px;
+
+     }
+
+     .texto {
+
+         font-family: 'Roboto Mono', monospace;
+         text-align: justify;
+         line-height: 2.0;
+         font-weight: bold;
+
+     }
+
+     .descricao {
+
+         font-family: 'Roboto Mono', monospace;
+         text-align: justify;
+         line-height: 2.0;
+
+     }
+
+     .secao-02 {
+
+         margin-left: 50px;
+         margin-top: 50px;
+         width: 400px;
+     }
+
+     .img img {
+         width: 100%;
+         border-radius: 200px;
+
+
+     }
+
+ }
