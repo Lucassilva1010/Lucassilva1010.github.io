@@ -26,69 +26,65 @@
         <!--Cabeçalho -->
         <section>
             <header class="bg-white">
-                <a href="index.html">
-               <span class="span-1">Sabedoria </span>
+              <a href="index.html">
+                <span class="span-1">Sabedoria </span>
                 <span class="span-2">Tech</span>
-                </a>   
+              </a>
               <section class="links">
-                <a href="index.html">Quem sou</a>
-                <a href="projetos.html">Projetos</a>
-                <a href="protifolio.html">Portifolio</a>
+                <a href="#quemSou">Quem sou</a>
+                <a href="projetos.html">Portifolio</a>
+                <a href="carreira.html">Carreira</a>
                 <a href="contatos.html">Contatos</a>
               </section>
             </header>
           </section>
-        
 
 
         <!--Introdução -->
         <main>
+
             <section class="contact" >
                 <div class="container">
                     <h2>Fale Comigo</h2>
-                    <div class="p-2"></div>
+                    
                     Resta alguma dúvida? Preencha os campos abaixo com os seguintes dados que em breve entraremos em
-                    contato. <div class="p-4"></div>
-                    <form id="form" action="https://www.attekita.com/wp-content/themes/attekita/submit">
-                        <div class="row text-left">
-                            <div class="col-lg-6">
-                                <label for="name">SEU NOME (*)</label>
-                                <input type="text" required="" name="nome" label="Seu Nome" placeholder="Digite aqui"
-                                    class="required field">
+                    contato. 
+                    <div>
+                        <form id="form" action="https://www.attekita.com/wp-content/themes/attekita/submit">
+                            <div class="row text-left container">
+                                <div class="col-lg-6 container">
+                                    <label for="name">SEU NOME (*)</label>
+                                    <input type="text" required="" name="nome" label="Seu Nome" placeholder="Digite aqui"
+                                        class="required field">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="email">E-MAIL (*)</label>
+                                    <input type="email" required="" name="email" label="E-mail"
+                                        placeholder="email@exemplo.com.br" class="required field">
+                                </div>
+                                <div class="col-lg-4">
+                                    <label for="telefone">TELEFONE</label>
+                                    <input type="text" name="telefone" label="Telefone" placeholder="(__)_________"
+                                        class="field">
+                                </div>
+                                <div class="col-lg-8">
+                                    <label for="assunto">ASSUNTO (*)</label>
+                                    <input type="text" required="" name="assunto" label="Assunto" placeholder="Digite aqui"
+                                        class="required field">
+                                </div>
+                                <div class="col-12">
+                                    <label for="mensagem">MENSAGEM (*)</label>
+                                    <textarea name="mensagem" required="" label="mensagem"
+                                        placeholder="Escreva aqui sua mensagem" class="required field" cols="30"
+                                        rows="10"></textarea>
+    
+                                   
+                                    
+                                </div>
                             </div>
-                            <div class="col-lg-6">
-                                <label for="email">E-MAIL (*)</label>
-                                <input type="email" required="" name="email" label="E-mail"
-                                    placeholder="email@exemplo.com.br" class="required field">
-                            </div>
-                            <div class="col-lg-4">
-                                <label for="telefone">TELEFONE</label>
-                                <input type="text" name="telefone" label="Telefone" placeholder="(__)_________"
-                                    class="field">
-                            </div>
-                            <div class="col-lg-8">
-                                <label for="assunto">ASSUNTO (*)</label>
-                                <input type="text" required="" name="assunto" label="Assunto" placeholder="Digite aqui"
-                                    class="required field">
-                            </div>
-                            <div class="col-12">
-                                <label for="mensagem">MENSAGEM (*)</label>
-                                <textarea name="mensagem" required="" label="mensagem"
-                                    placeholder="Escreva aqui sua mensagem" class="required field" cols="30"
-                                    rows="10"></textarea>
-
-                                <button type="button" onclick="SubmitForm('#form');" class="button">Enviar contato <div
-                                        class="icon"><svg class="svg-inline--fa fa-paper-plane fa-w-16"
-                                            aria-hidden="true" data-prefix="fas" data-icon="paper-plane" role="img"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
-                                            <path fill="currentColor"
-                                                d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z">
-                                            </path>
-                                        </svg><!-- <i class="fas fa-paper-plane"></i> --></div> </button>
-                                <div class="p-4"></div>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                   
                 </div>
             </section>
 
