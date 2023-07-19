@@ -1,8 +1,6 @@
  @import url(./styles/header.css);
  @import url(./styles/footer.css);
 
- @media all and (orientation: landscape) {
-     /* Estilizações CSS */
 
 
      /* Estilizações CSS */
@@ -116,4 +114,10 @@
 
      }
 
- }
+     @media all and (orientation: landscape) {
+        /* Estilizações CSS */
+    }
+    @media screen and (max-width: 768px){
+        /* Estilizações CSS */
+    }
+    
