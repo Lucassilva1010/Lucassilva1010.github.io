@@ -17,5 +17,21 @@
 .redes_sociais{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+ justify-content: space-around;
+}
+.pares_redes{
+    display: flex;
+    flex-direction: row;
+  gap: 80px;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .redes_sociais{
+        display:flex;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
 }

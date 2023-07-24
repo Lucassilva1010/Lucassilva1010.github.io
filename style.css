@@ -1,7 +1,11 @@
  @import url(./styles/header.css);
  @import url(./styles/footer.css);
 
-
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
 
      /* Estilizações CSS */
 
@@ -10,11 +14,12 @@
         background-color: rgb(237, 232, 224);
     }
 
+    .nav_header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-     /* Configurações do Fundo da pagina */
-   
-
-     /* Configurações do NAV MENU pagina */
 
      /* Efeito dos Links dos Botões */
      .link-b1 {
@@ -110,14 +115,23 @@
      .img img {
          width: 100%;
          border-radius: 200px;
-
-
+     }
+     .apresentacao_img{
+        display: flex;
+        flex-direction: row;
      }
 
      @media all and (orientation: landscape) {
         /* Estilizações CSS */
     }
     @media screen and (max-width: 768px){
-        /* Estilizações CSS */
+        .nav_header{
+            display: flex;
+            flex-direction: column;
+        }
+        .img{
+            display: none;
+        }
+       
     }
     
