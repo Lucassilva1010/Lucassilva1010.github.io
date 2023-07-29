@@ -29,9 +29,9 @@
 @media screen and (max-width: 768px){
     
     .redes_sociais{
-        display:flex;
-        flex-direction: column;
+        display:grid;
+        grid-template-rows: 100px 100px ;
         gap: 5px;
-        
+        grid-template-columns: 50px 50px 50px 50px;
     }
 }

@@ -1,13 +1,16 @@
 @import url(./styles/header.css);
 @import url(./styles/footer.css);
 
-@media all and (orientation: landscape) {
-    /* Estilizações CSS */
+
 
 
     /* Link do NAV */
     
-    
+     /* Configurações do Fundo da pagina */
+     body {
+        background-color: rgb(237, 232, 224);
+    }
+
 
 
     /* Configuração dos trextos da apresentação */
@@ -68,5 +71,72 @@
 
 
     }
+    .container_Qr{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .img_qr{
+        width: 100%;
+        height: 100%;
+    }
+    .container_link{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 5px;
+        height: 100px;
+    }
+    
+.container_contatos{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 350px 350px ;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 20px;
+  
 
+
+}
+main{
+    margin: 0px 5px;
+display: 	flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.descricao{
+    font-size: 20px;
+    margin: 0px 200px;
+
+}
+
+.container_contatos p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+  
+    
+}
+
+@media screen and (max-width: 768px){
+    .container_contatos{
+        display: grid;
+    grid-template-columns: 250px 250px ;
+    grid-template-rows: 350px 350px ;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 20px;
+      
+    }
+    .descricao{
+        font-size: 20px;
+        margin: 0px 70px;
+        
+    
+    }
+       
 }

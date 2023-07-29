@@ -1,9 +1,7 @@
 @import url(./styles/header.css);
 @import url(./styles/footer.css);
 
-
-@media all and (orientation: landscape) {
-    /* Estilizações CSS */
+  /* Estilizações CSS */
 
 
     /* Configurações do Fundo da pagina */
@@ -15,7 +13,7 @@
    
     .secao-01 h1 {
         font: bold;
-        font-family: 'Bruno Ace SC', cursive;
+        font-family: 'Roboto Mono', monospace;
         font-size: 35px;
 
     }
@@ -84,5 +82,30 @@
         font-family: 'Roboto Mono', monospace;
         font-weight: bold;
     }
+    .container_card_projetos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        
+    }
+    .card_projetos{
+        height: 400px;
+        width: 370px;
+        background-color: white;
+        padding: 10px;
+        
+    }
 
-}
+    @media screen and (max-width: 768px){
+        .container_card_projetos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+    
+

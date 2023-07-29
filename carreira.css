@@ -4,6 +4,10 @@
 @media all and (orientation: landscape) {
    
 
+     /* Configurações do Fundo da pagina */
+     body {
+        background-color: rgb(237, 232, 224);
+    }
 
     /* Configuração dos trextos da apresentação */
     .secao-01 {
@@ -89,6 +93,7 @@
     /* The actual timeline (the vertical ruler) */
     .main-timeline-2 {
         position: relative;
+       
     }
 
     /* The actual timeline (the vertical ruler) */
@@ -180,13 +185,14 @@
         }
 
         /* Make sure that all arrows are pointing leftwards */
+     
         .timeline-2::before {
             left: 60px;
             border: medium solid white;
             border-width: 10px 10px 10px 0;
             border-color: transparent white transparent transparent;
         }
-
+       
         /* Make sure all circles are at the same spot */
         .left-2::after,
         .right-2::after {
@@ -236,6 +242,10 @@
         padding-top: 8px;
     }
 
+    .cor_fundo_linha_tempo{
+    background-color: #F0F2F5;;    
+    }
+
     @media (min-width: 1140px) {
         .horizontal-timeline .items .items-list {
             display: inline-block;
@@ -246,5 +256,7 @@
         .horizontal-timeline .items .items-list .event-date {
             top: -40px;
         }
+        
+           
     }
 }

@@ -14,54 +14,13 @@
         background-color: rgb(237, 232, 224);
     }
 
-    .nav_header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-
-     /* Efeito dos Links dos Botões */
-     .link-b1 {
-         background-color: transparent;
-         border: rgb(16, 1, 1) solid 1px;
-         font-weight: bold;
-         color: black;
-     }
-
-     /* Efeito dos Links dos Botões */
-     .link-b2 {
-         background-color: transparent;
-         border: rgb(16, 1, 1) solid 1px;
-         font-weight: bold;
-         color: black;
-     }
-
-     /* Efeito do nome do portifolio */
-     .span-1,
-     .span-2 {
-         font-weight: bold;
-         text-decoration: none;
-         font-family: 'Bruno Ace SC', cursive;
-         font-size: xx-large;
-     }
-
-     /* Efeito do nome do portifolio */
-     .span-1 {
-         color: #34b4eb;
-     }
-
-     /* Removendo o sublinhado dos link do NAV */
-     a {
-         text-decoration: none;
-     }
+ 
 
 
      /* Configuração dos trextos da apresentação */
      .secao-01 {
          font-family: 'Libre Baskerville', serif;
-         margin-left: 50px;
-         margin-top: 10px;
+      
 
      }
 
@@ -125,12 +84,18 @@
         /* Estilizações CSS */
     }
     @media screen and (max-width: 768px){
-        .nav_header{
+      
+        .carrocel_container{
+            display: none;
+            width: 0px;
+            height: 0px;
+        }
+        .apresentacao_img{
             display: flex;
             flex-direction: column;
-        }
-        .img{
-            display: none;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
        
     }
