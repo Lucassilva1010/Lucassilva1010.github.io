@@ -120,6 +120,10 @@ align-items: center;
   
     
 }
+.descricao_card{
+    text-align: justify;
+    align-items: center;
+}
 
 @media screen and (max-width: 768px){
     .container_contatos{
